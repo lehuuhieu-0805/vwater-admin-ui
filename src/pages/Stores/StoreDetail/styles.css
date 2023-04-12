@@ -1,0 +1,50 @@
+.avatar-upload {
+  position: relative;
+  max-width: 170px;
+  margin: 0px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  z-index: 1;
+  width: 170px;
+  height: 170px;
+}
+.avatar-upload .avatar-edit:hover {
+  cursor: pointer;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  color: rgb(145, 158, 171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 170px;
+  background: none;
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background-color: #f8f8f8;
+}
+
+.avatar-upload .avatar-preview {
+  height: 170px;
+  max-width: 170px;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > img {
+  height: 170px;
+  max-width: 170px;
+  border: none;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

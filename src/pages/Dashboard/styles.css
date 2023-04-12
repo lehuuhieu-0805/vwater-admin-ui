@@ -1,0 +1,15 @@
+.dashboard-body {
+  padding: 25px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+.dashboard-body::-webkit-scrollbar {
+  width: 10px;
+}
+.dashboard-body::-webkit-scrollbar-track {
+  width: 10px;
+}
+.dashboard-body::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: rgb(210, 209, 209);
+}
